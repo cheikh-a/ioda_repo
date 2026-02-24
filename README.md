@@ -37,6 +37,7 @@ ioda_repo/
   scripts/
     ioda_discover.py
     ioda_fetch.py
+    ioda_monthly_closeout.py
     ioda_build_panel.py
     ioda_qa.py
   data/
@@ -125,6 +126,44 @@ This writes:
 - `docs/qa_report.md`
 - `data/processed/qa_summary.parquet`
 
+## Monthly Closeout Workflow (March, April, etc.)
+
+Use the helper script to fetch exactly one calendar month (UTC), then rebuild panels and QA.
+
+Default behavior:
+
+- If `--month` is omitted, it targets the previous UTC month
+- It uses an exclusive end boundary at the first day of the next month
+- It blocks the current month by default (to avoid accidental partial-month closeout)
+
+Example: close out March 2026 (run in April 2026)
+
+```bash
+python scripts/ioda_monthly_closeout.py --month 2026-03 --overwrite
+```
+
+Example: close out April 2026
+
+```bash
+python scripts/ioda_monthly_closeout.py --month 2026-04 --overwrite
+```
+
+Preview planned requests only:
+
+```bash
+python scripts/ioda_monthly_closeout.py --month 2026-03 --dry-run
+```
+
+Notes:
+
+- `--overwrite` is recommended for month closeout reruns so the month is refreshed cleanly.
+- The script runs fetch -> build_panel -> qa in one command (unless `--no-build` or `--no-qa` is used).
+- If you changed the configured entity set (for example enabling/disabling Mauritania), run discovery first:
+
+```bash
+python scripts/ioda_discover.py --no-probe-coverage
+```
+
 ## Configuration
 
 Edit `config/west_africa.yaml`:
@@ -133,6 +172,7 @@ Edit `config/west_africa.yaml`:
 - `region_definition.include_mauritania`: toggles Mauritania inclusion
 - `fetch_defaults.request`: user-agent, timeout, retry, pacing
 - `fetch_defaults.chunking`: chunk size defaults and response-size threshold
+- `fetch_defaults.window`: default baseline backfill window used when `ioda_fetch.py` is run without `--start/--end`
 - `discovery`: coverage probing defaults and cache location
 
 Discovery updates only the `generated:` section and preserves manual edits in other sections.
@@ -144,6 +184,7 @@ Discovery updates only the `generated:` section and preserves manual edits in ot
 - Processed outputs are deterministic for the same raw input set and normalization logic.
 - `--start` / `--end` allow fixed time windows. If omitted, `--end` defaults to runtime UTC now.
 - `--since-last-run` uses processed coverage (`qa_summary.parquet` or `ioda_long.parquet`) to append newer data.
+- `scripts/ioda_monthly_closeout.py` is the recommended month-close path after the initial baseline backfill.
 
 ## Expected Runtime (Guidance)
 

@@ -45,6 +45,12 @@ def parse_dateish(value: str | None, end_of_day: bool = False) -> datetime | Non
         return None
     if s.isdigit():
         return datetime.fromtimestamp(int(s), tz=UTC)
+    # Respect date-only strings for end-of-day cutoffs.
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", s):
+        d = date.fromisoformat(s)
+        if end_of_day:
+            return datetime(d.year, d.month, d.day, 23, 59, 59, tzinfo=UTC)
+        return datetime(d.year, d.month, d.day, 0, 0, 0, tzinfo=UTC)
     try:
         dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
         if dt.tzinfo is None:

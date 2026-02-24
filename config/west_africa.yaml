@@ -56,6 +56,9 @@ region_definition:
 fetch_defaults:
   level: both
   metrics: auto
+  window:
+    default_start: '2023-01-01'
+    default_end: '2026-02-24T15:49:42Z'
   request:
     user_agent: 'ioda-west-africa-pipeline/0.1 (+local; contact: none)'
     timeout_seconds: 60

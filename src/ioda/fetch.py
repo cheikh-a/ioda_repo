@@ -314,6 +314,7 @@ def run_fetch(
     fetch_defaults = config.get("fetch_defaults") or {}
     req_cfg = fetch_defaults.get("request") or {}
     chunk_cfg = fetch_defaults.get("chunking") or {}
+    window_cfg = fetch_defaults.get("window") or {}
 
     ua = user_agent or str(req_cfg.get("user_agent") or "ioda-west-africa-pipeline/0.1")
     timeout_seconds = float(timeout_seconds or req_cfg.get("timeout_seconds") or 60.0)
@@ -342,8 +343,13 @@ def run_fetch(
         limit_entities=limit_entities,
     )
 
-    start_dt = parse_dateish(start, end_of_day=False)
-    end_dt = parse_dateish(end, end_of_day=True)
+    default_start_cfg = window_cfg.get("default_start")
+    default_end_cfg = window_cfg.get("default_end")
+    start_input = start if start is not None else default_start_cfg
+    end_input = end if end is not None else default_end_cfg
+
+    start_dt = parse_dateish(start_input, end_of_day=False)
+    end_dt = parse_dateish(end_input, end_of_day=True)
     if end_dt is None:
         end_dt = utc_now()
 

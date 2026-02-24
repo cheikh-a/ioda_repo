@@ -75,7 +75,7 @@ discovery:
   earliest_search_floor_year: 2000
   coverage_cache_path: data/intermediate/coverage_cache.json
 generated:
-  last_discovered_at_utc: '2026-02-24T15:18:13Z'
+  last_discovered_at_utc: '2026-02-24T15:27:11Z'
   datasources:
   - datasource: bgp
     name: BGP
@@ -117,6 +117,76 @@ generated:
       iso2: BF
       attrs:
         fqid: geo.netacuity.AF.BF
+    - entity_id: BJ
+      entity_name: Benin
+      iso2: BJ
+      attrs:
+        fqid: geo.netacuity.AF.BJ
+    - entity_id: CI
+      entity_name: Cote D Ivoire
+      iso2: CI
+      attrs:
+        fqid: geo.netacuity.AF.CI
+    - entity_id: CV
+      entity_name: Cape Verde
+      iso2: CV
+      attrs:
+        fqid: geo.netacuity.AF.CV
+    - entity_id: GH
+      entity_name: Ghana
+      iso2: GH
+      attrs:
+        fqid: geo.netacuity.AF.GH
+    - entity_id: GM
+      entity_name: Gambia
+      iso2: GM
+      attrs:
+        fqid: geo.netacuity.AF.GM
+    - entity_id: GN
+      entity_name: Guinea
+      iso2: GN
+      attrs:
+        fqid: geo.netacuity.AF.GN
+    - entity_id: GW
+      entity_name: Guinea-Bissau
+      iso2: GW
+      attrs:
+        fqid: geo.netacuity.AF.GW
+    - entity_id: LR
+      entity_name: Liberia
+      iso2: LR
+      attrs:
+        fqid: geo.netacuity.AF.LR
+    - entity_id: ML
+      entity_name: Mali
+      iso2: ML
+      attrs:
+        fqid: geo.netacuity.AF.ML
+    - entity_id: NE
+      entity_name: Niger
+      iso2: NE
+      attrs:
+        fqid: geo.netacuity.AF.NE
+    - entity_id: NG
+      entity_name: Nigeria
+      iso2: NG
+      attrs:
+        fqid: geo.netacuity.AF.NG
+    - entity_id: SL
+      entity_name: Sierra Leone
+      iso2: SL
+      attrs:
+        fqid: geo.netacuity.AF.SL
+    - entity_id: SN
+      entity_name: Senegal
+      iso2: SN
+      attrs:
+        fqid: geo.netacuity.AF.SN
+    - entity_id: TG
+      entity_name: Togo
+      iso2: TG
+      attrs:
+        fqid: geo.netacuity.AF.TG
     regions:
     - entity_id: '306'
       entity_name: Kompienga
@@ -531,4 +601,1952 @@ generated:
         fqid: geo.netacuity.AF.BF.4649
         country_code: BF
         country_name: Burkina Faso
+    - entity_id: '294'
+      entity_name: Borgou
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.294
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2169'
+    - entity_id: '295'
+      entity_name: Alibori
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.295
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2170'
+    - entity_id: '296'
+      entity_name: Collines
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.296
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2171'
+    - entity_id: '297'
+      entity_name: Atlantique
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.297
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2174'
+    - entity_id: '298'
+      entity_name: Littoral
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.298
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2175'
+    - entity_id: '299'
+      entity_name: Kouffo
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.299
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2176'
+    - entity_id: '300'
+      entity_name: "Ou\xE9m\xE9"
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.300
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2177'
+    - entity_id: '301'
+      entity_name: Zou
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.301
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2178'
+    - entity_id: '302'
+      entity_name: Plateau
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.302
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2179'
+    - entity_id: '303'
+      entity_name: Mono
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.303
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2180'
+    - entity_id: '304'
+      entity_name: Atakora
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.304
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2181'
+    - entity_id: '305'
+      entity_name: Donga
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.305
+        country_code: BJ
+        country_name: Benin
+        ne_region_id: '2182'
+    - entity_id: '4652'
+      entity_name: Unknown Region in Benin
+      parent_country_id: BJ
+      parent_country_name: Benin
+      attrs:
+        fqid: geo.netacuity.AF.BJ.4652
+        country_code: BJ
+        country_name: Benin
+    - entity_id: '4672'
+      entity_name: Unknown Region in Cote D Ivoire
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.4672
+        country_code: CI
+        country_name: Cote D Ivoire
+    - entity_id: '658'
+      entity_name: Savanes
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.658
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3431'
+    - entity_id: '659'
+      entity_name: "Dengu\xE9l\xE9"
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.659
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3437'
+    - entity_id: '660'
+      entity_name: Bafing
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.660
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3440'
+    - entity_id: '661'
+      entity_name: Dix-Huit Montagnes
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.661
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3441'
+    - entity_id: '662'
+      entity_name: Worodougou
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.662
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3443'
+    - entity_id: '663'
+      entity_name: "Marahou\xE9"
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.663
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3444'
+    - entity_id: '664'
+      entity_name: Fromager
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.664
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3445'
+    - entity_id: '665'
+      entity_name: Haut-Sassandra
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.665
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3446'
+    - entity_id: '666'
+      entity_name: Sud-Bandama
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.666
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3447'
+    - entity_id: '667'
+      entity_name: Bas-Sassandra
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.667
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3448'
+    - entity_id: '668'
+      entity_name: Zanzan
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.668
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3449'
+    - entity_id: '669'
+      entity_name: "Vall\xE9e du Bandama"
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.669
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3450'
+    - entity_id: '670'
+      entity_name: "Agn\xE9by"
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.670
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3451'
+    - entity_id: '671'
+      entity_name: "N'zi-Como\xE9"
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.671
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3452'
+    - entity_id: '672'
+      entity_name: Lagunes
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.672
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3458'
+    - entity_id: '673'
+      entity_name: Moyen-Cavally
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.673
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3459'
+    - entity_id: '674'
+      entity_name: Moyen-Comoe
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.674
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3460'
+    - entity_id: '675'
+      entity_name: Lacs
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.675
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3461'
+    - entity_id: '676'
+      entity_name: "Sud-Como\xE9"
+      parent_country_id: CI
+      parent_country_name: Cote D Ivoire
+      attrs:
+        fqid: geo.netacuity.AF.CI.676
+        country_code: CI
+        country_name: Cote D Ivoire
+        ne_region_id: '3462'
+    - entity_id: '4685'
+      entity_name: Unknown Region in Cape Verde
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.4685
+        country_code: CV
+        country_name: Cape Verde
+    - entity_id: '759'
+      entity_name: Brava
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.759
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5041'
+    - entity_id: '760'
+      entity_name: "S\xE3o Filipe"
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.760
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5042'
+    - entity_id: '761'
+      entity_name: Mosteiros
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.761
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5043'
+    - entity_id: '762'
+      entity_name: Santa Catarina do Fogo
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.762
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5044'
+    - entity_id: '763'
+      entity_name: Tarrafal
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.763
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5045'
+    - entity_id: '764'
+      entity_name: Santa Catarina
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.764
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5046'
+    - entity_id: '765'
+      entity_name: "S\xE3o Miguel"
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.765
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5047'
+    - entity_id: '766'
+      entity_name: Santa Cruz
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.766
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5048'
+    - entity_id: '767'
+      entity_name: "S\xE3o Salvador do Mundo"
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.767
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5049'
+    - entity_id: '768'
+      entity_name: "S\xE3o Louren\xE7o dos \xD3rg\xE3os"
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.768
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5050'
+    - entity_id: '769'
+      entity_name: "S\xE3o Domingos"
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.769
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5051'
+    - entity_id: '770'
+      entity_name: Ribeira Grande de Santiago
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.770
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5052'
+    - entity_id: '771'
+      entity_name: Praia
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.771
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5053'
+    - entity_id: '772'
+      entity_name: Maio
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.772
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5054'
+    - entity_id: '773'
+      entity_name: Boa Vista
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.773
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5055'
+    - entity_id: '774'
+      entity_name: Sal
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.774
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5056'
+    - entity_id: '775'
+      entity_name: Ribeira Brava
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.775
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5057'
+    - entity_id: '776'
+      entity_name: "Tarrafal de S\xE3o Nicolau"
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.776
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5058'
+    - entity_id: '777'
+      entity_name: "S\xE3o Vicente"
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.777
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5059'
+    - entity_id: '778'
+      entity_name: Porto Novo
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.778
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5060'
+    - entity_id: '779'
+      entity_name: Ribeira Grande
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.779
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5061'
+    - entity_id: '780'
+      entity_name: Paul
+      parent_country_id: CV
+      parent_country_name: Cape Verde
+      attrs:
+        fqid: geo.netacuity.AF.CV.780
+        country_code: CV
+        country_name: Cape Verde
+        ne_region_id: '5062'
+    - entity_id: '1473'
+      entity_name: Northern
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1473
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2155'
+    - entity_id: '1474'
+      entity_name: Upper East
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1474
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2156'
+    - entity_id: '1475'
+      entity_name: Upper West
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1475
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2157'
+    - entity_id: '1476'
+      entity_name: Ashanti
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1476
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2158'
+    - entity_id: '1477'
+      entity_name: Brong Ahafo
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1477
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2159'
+    - entity_id: '1478'
+      entity_name: Central
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1478
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2160'
+    - entity_id: '1479'
+      entity_name: Eastern
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1479
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2161'
+    - entity_id: '1480'
+      entity_name: Western
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1480
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2162'
+    - entity_id: '1481'
+      entity_name: Greater Accra
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1481
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2172'
+    - entity_id: '1482'
+      entity_name: Volta
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.1482
+        country_code: GH
+        country_name: Ghana
+        ne_region_id: '2173'
+    - entity_id: '4686'
+      entity_name: Unknown Region in Ghana
+      parent_country_id: GH
+      parent_country_name: Ghana
+      attrs:
+        fqid: geo.netacuity.AF.GH.4686
+        country_code: GH
+        country_name: Ghana
+    - entity_id: '1518'
+      entity_name: Central River
+      parent_country_id: GM
+      parent_country_name: Gambia
+      attrs:
+        fqid: geo.netacuity.AF.GM.1518
+        country_code: GM
+        country_name: Gambia
+        ne_region_id: '2151'
+    - entity_id: '1519'
+      entity_name: Upper River
+      parent_country_id: GM
+      parent_country_name: Gambia
+      attrs:
+        fqid: geo.netacuity.AF.GM.1519
+        country_code: GM
+        country_name: Gambia
+        ne_region_id: '2152'
+    - entity_id: '1520'
+      entity_name: Banjul
+      parent_country_id: GM
+      parent_country_name: Gambia
+      attrs:
+        fqid: geo.netacuity.AF.GM.1520
+        country_code: GM
+        country_name: Gambia
+        ne_region_id: '2153'
+    - entity_id: '1521'
+      entity_name: Lower River
+      parent_country_id: GM
+      parent_country_name: Gambia
+      attrs:
+        fqid: geo.netacuity.AF.GM.1521
+        country_code: GM
+        country_name: Gambia
+        ne_region_id: '2154'
+    - entity_id: '1522'
+      entity_name: West Coast
+      parent_country_id: GM
+      parent_country_name: Gambia
+      attrs:
+        fqid: geo.netacuity.AF.GM.1522
+        country_code: GM
+        country_name: Gambia
+        ne_region_id: '5512'
+    - entity_id: '1523'
+      entity_name: North Bank
+      parent_country_id: GM
+      parent_country_name: Gambia
+      attrs:
+        fqid: geo.netacuity.AF.GM.1523
+        country_code: GM
+        country_name: Gambia
+        ne_region_id: '5513'
+    - entity_id: '4683'
+      entity_name: Unknown Region in Gambia
+      parent_country_id: GM
+      parent_country_name: Gambia
+      attrs:
+        fqid: geo.netacuity.AF.GM.4683
+        country_code: GM
+        country_name: Gambia
+    - entity_id: '1484'
+      entity_name: Beyla
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1484
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5627'
+    - entity_id: '1485'
+      entity_name: Boffa
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1485
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5628'
+    - entity_id: '1486'
+      entity_name: Boke
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1486
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5629'
+    - entity_id: '1487'
+      entity_name: Conakry
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1487
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5630'
+    - entity_id: '1488'
+      entity_name: Coyah
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1488
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5631'
+    - entity_id: '1489'
+      entity_name: Dabola
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1489
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5632'
+    - entity_id: '1490'
+      entity_name: Dalaba
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1490
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5633'
+    - entity_id: '1491'
+      entity_name: Dinguiraye
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1491
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5634'
+    - entity_id: '1492'
+      entity_name: "Dubr\xE9ka"
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1492
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5635'
+    - entity_id: '1493'
+      entity_name: Faranah
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1493
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5636'
+    - entity_id: '1494'
+      entity_name: "For\xE9cariah"
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1494
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5637'
+    - entity_id: '1495'
+      entity_name: Fria
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1495
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5638'
+    - entity_id: '1496'
+      entity_name: Gaoual
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1496
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5639'
+    - entity_id: '1497'
+      entity_name: "Gu\xE9ck\xE9dou"
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1497
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5640'
+    - entity_id: '1498'
+      entity_name: Kankan
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1498
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5641'
+    - entity_id: '1499'
+      entity_name: "K\xE9rouan\xE9"
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1499
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5642'
+    - entity_id: '1500'
+      entity_name: Kindia
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1500
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5643'
+    - entity_id: '1501'
+      entity_name: Kissidougou
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1501
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5644'
+    - entity_id: '1502'
+      entity_name: Koubia
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1502
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5645'
+    - entity_id: '1503'
+      entity_name: Koundara
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1503
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5646'
+    - entity_id: '1504'
+      entity_name: Kouroussa
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1504
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5647'
+    - entity_id: '1505'
+      entity_name: "Lab\xE9"
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1505
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5648'
+    - entity_id: '1506'
+      entity_name: "L\xE9louma"
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1506
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5649'
+    - entity_id: '1507'
+      entity_name: Lola
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1507
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5650'
+    - entity_id: '1508'
+      entity_name: Macenta
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1508
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5651'
+    - entity_id: '1509'
+      entity_name: Mali
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1509
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5652'
+    - entity_id: '1510'
+      entity_name: Mamou
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1510
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5653'
+    - entity_id: '1511'
+      entity_name: Mandiana
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1511
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5654'
+    - entity_id: '1512'
+      entity_name: "Nz\xE9r\xE9kor\xE9"
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1512
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5655'
+    - entity_id: '1513'
+      entity_name: Pita
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1513
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5656'
+    - entity_id: '1514'
+      entity_name: Siguiri
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1514
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5657'
+    - entity_id: '1515'
+      entity_name: "Tougu\xE9"
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1515
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5658'
+    - entity_id: '1516'
+      entity_name: Yomou
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1516
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5659'
+    - entity_id: '1517'
+      entity_name: "T\xE9lim\xE9l\xE9"
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.1517
+        country_code: GN
+        country_name: Guinea
+        ne_region_id: '5660'
+    - entity_id: '4682'
+      entity_name: Unknown Region in Guinea
+      parent_country_id: GN
+      parent_country_name: Guinea
+      attrs:
+        fqid: geo.netacuity.AF.GN.4682
+        country_code: GN
+        country_name: Guinea
+    - entity_id: '1524'
+      entity_name: Biombo
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.1524
+        country_code: GW
+        country_name: Guinea-Bissau
+        ne_region_id: '5500'
+    - entity_id: '1525'
+      entity_name: Bissau
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.1525
+        country_code: GW
+        country_name: Guinea-Bissau
+        ne_region_id: '769'
+    - entity_id: '1526'
+      entity_name: Bolama
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.1526
+        country_code: GW
+        country_name: Guinea-Bissau
+        ne_region_id: '770'
+    - entity_id: '1527'
+      entity_name: Cacheu
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.1527
+        country_code: GW
+        country_name: Guinea-Bissau
+        ne_region_id: '771'
+    - entity_id: '1528'
+      entity_name: Oio
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.1528
+        country_code: GW
+        country_name: Guinea-Bissau
+        ne_region_id: '772'
+    - entity_id: '1529'
+      entity_name: Quinara
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.1529
+        country_code: GW
+        country_name: Guinea-Bissau
+        ne_region_id: '773'
+    - entity_id: '1530'
+      entity_name: "Bafat\xE1"
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.1530
+        country_code: GW
+        country_name: Guinea-Bissau
+        ne_region_id: '776'
+    - entity_id: '1531'
+      entity_name: "Gab\xFA"
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.1531
+        country_code: GW
+        country_name: Guinea-Bissau
+        ne_region_id: '777'
+    - entity_id: '1532'
+      entity_name: Tombali
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.1532
+        country_code: GW
+        country_name: Guinea-Bissau
+        ne_region_id: '778'
+    - entity_id: '4670'
+      entity_name: Unknown Region in Guinea-Bissau
+      parent_country_id: GW
+      parent_country_name: Guinea-Bissau
+      attrs:
+        fqid: geo.netacuity.AF.GW.4670
+        country_code: GW
+        country_name: Guinea-Bissau
+    - entity_id: '2223'
+      entity_name: River Gee
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2223
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '1458'
+    - entity_id: '2224'
+      entity_name: Gbapolu
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2224
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '1459'
+    - entity_id: '2225'
+      entity_name: Grand Kru
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2225
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '780'
+    - entity_id: '2226'
+      entity_name: Maryland
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2226
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '781'
+    - entity_id: '2227'
+      entity_name: Sinoe
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2227
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '782'
+    - entity_id: '2228'
+      entity_name: Bomi
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2228
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '783'
+    - entity_id: '2229'
+      entity_name: Bong
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2229
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '784'
+    - entity_id: '2230'
+      entity_name: Grand Bassa
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2230
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '785'
+    - entity_id: '2231'
+      entity_name: Grand Cape Mount
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2231
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '786'
+    - entity_id: '2232'
+      entity_name: Lofa
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2232
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '787'
+    - entity_id: '2233'
+      entity_name: Montserrado
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2233
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '788'
+    - entity_id: '2234'
+      entity_name: Margibi
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2234
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '789'
+    - entity_id: '2235'
+      entity_name: Nimba
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2235
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '791'
+    - entity_id: '2236'
+      entity_name: River Cess
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2236
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '792'
+    - entity_id: '2237'
+      entity_name: Grand Gedeh
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.2237
+        country_code: LR
+        country_name: Liberia
+        ne_region_id: '793'
+    - entity_id: '4664'
+      entity_name: Unknown Region in Liberia
+      parent_country_id: LR
+      parent_country_name: Liberia
+      attrs:
+        fqid: geo.netacuity.AF.LR.4664
+        country_code: LR
+        country_name: Liberia
+    - entity_id: '2670'
+      entity_name: Timbuktu
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.2670
+        country_code: ML
+        country_name: Mali
+        ne_region_id: '2688'
+    - entity_id: '2671'
+      entity_name: Kidal
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.2671
+        country_code: ML
+        country_name: Mali
+        ne_region_id: '2689'
+    - entity_id: '2672'
+      entity_name: Gao
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.2672
+        country_code: ML
+        country_name: Mali
+        ne_region_id: '2690'
+    - entity_id: '2673'
+      entity_name: Bamako
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.2673
+        country_code: ML
+        country_name: Mali
+        ne_region_id: '2792'
+    - entity_id: '2674'
+      entity_name: Kayes
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.2674
+        country_code: ML
+        country_name: Mali
+        ne_region_id: '2793'
+    - entity_id: '2675'
+      entity_name: Sikasso
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.2675
+        country_code: ML
+        country_name: Mali
+        ne_region_id: '2794'
+    - entity_id: '2676'
+      entity_name: Mopti
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.2676
+        country_code: ML
+        country_name: Mali
+        ne_region_id: '2809'
+    - entity_id: '2677'
+      entity_name: "S\xE9gou"
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.2677
+        country_code: ML
+        country_name: Mali
+        ne_region_id: '2810'
+    - entity_id: '2678'
+      entity_name: Koulikoro
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.2678
+        country_code: ML
+        country_name: Mali
+        ne_region_id: '4860'
+    - entity_id: '4692'
+      entity_name: Unknown Region in Mali
+      parent_country_id: ML
+      parent_country_name: Mali
+      attrs:
+        fqid: geo.netacuity.AF.ML.4692
+        country_code: ML
+        country_name: Mali
+    - entity_id: '2916'
+      entity_name: "Tillab\xE9ri"
+      parent_country_id: NE
+      parent_country_name: Niger
+      attrs:
+        fqid: geo.netacuity.AF.NE.2916
+        country_code: NE
+        country_name: Niger
+        ne_region_id: '4859'
+    - entity_id: '2917'
+      entity_name: Diffa
+      parent_country_id: NE
+      parent_country_name: Niger
+      attrs:
+        fqid: geo.netacuity.AF.NE.2917
+        country_code: NE
+        country_name: Niger
+        ne_region_id: '796'
+    - entity_id: '2918'
+      entity_name: Agadez
+      parent_country_id: NE
+      parent_country_name: Niger
+      attrs:
+        fqid: geo.netacuity.AF.NE.2918
+        country_code: NE
+        country_name: Niger
+        ne_region_id: '800'
+    - entity_id: '2919'
+      entity_name: Maradi
+      parent_country_id: NE
+      parent_country_name: Niger
+      attrs:
+        fqid: geo.netacuity.AF.NE.2919
+        country_code: NE
+        country_name: Niger
+        ne_region_id: '91'
+    - entity_id: '2920'
+      entity_name: Zinder
+      parent_country_id: NE
+      parent_country_name: Niger
+      attrs:
+        fqid: geo.netacuity.AF.NE.2920
+        country_code: NE
+        country_name: Niger
+        ne_region_id: '92'
+    - entity_id: '2921'
+      entity_name: Dosso
+      parent_country_id: NE
+      parent_country_name: Niger
+      attrs:
+        fqid: geo.netacuity.AF.NE.2921
+        country_code: NE
+        country_name: Niger
+        ne_region_id: '93'
+    - entity_id: '2922'
+      entity_name: Niamey
+      parent_country_id: NE
+      parent_country_name: Niger
+      attrs:
+        fqid: geo.netacuity.AF.NE.2922
+        country_code: NE
+        country_name: Niger
+        ne_region_id: '94'
+    - entity_id: '2923'
+      entity_name: Tahoua
+      parent_country_id: NE
+      parent_country_name: Niger
+      attrs:
+        fqid: geo.netacuity.AF.NE.2923
+        country_code: NE
+        country_name: Niger
+        ne_region_id: '95'
+    - entity_id: '4661'
+      entity_name: Unknown Region in Niger
+      parent_country_id: NE
+      parent_country_name: Niger
+      attrs:
+        fqid: geo.netacuity.AF.NE.4661
+        country_code: NE
+        country_name: Niger
+    - entity_id: '2925'
+      entity_name: Borno
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2925
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2839'
+    - entity_id: '2926'
+      entity_name: Abia
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2926
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2841'
+    - entity_id: '2927'
+      entity_name: Akwa Ibom
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2927
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2842'
+    - entity_id: '2928'
+      entity_name: Imo
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2928
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2843'
+    - entity_id: '2929'
+      entity_name: Rivers
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2929
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2844'
+    - entity_id: '2930'
+      entity_name: Bayelsa
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2930
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2845'
+    - entity_id: '2931'
+      entity_name: Benue
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2931
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2846'
+    - entity_id: '2932'
+      entity_name: Cross River
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2932
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2847'
+    - entity_id: '2933'
+      entity_name: Taraba
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2933
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2848'
+    - entity_id: '2934'
+      entity_name: Kwara
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2934
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2849'
+    - entity_id: '2935'
+      entity_name: Lagos
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2935
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2850'
+    - entity_id: '2936'
+      entity_name: Niger
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2936
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2851'
+    - entity_id: '2937'
+      entity_name: Ogun
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2937
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2852'
+    - entity_id: '2938'
+      entity_name: Ondo
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2938
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2853'
+    - entity_id: '2939'
+      entity_name: Ekiti
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2939
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2854'
+    - entity_id: '2940'
+      entity_name: Osun
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2940
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2855'
+    - entity_id: '2941'
+      entity_name: Oyo
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2941
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2856'
+    - entity_id: '2942'
+      entity_name: Anambra
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2942
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2857'
+    - entity_id: '2943'
+      entity_name: Bauchi
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2943
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2858'
+    - entity_id: '2944'
+      entity_name: Gombe
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2944
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2859'
+    - entity_id: '2945'
+      entity_name: Delta
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2945
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2860'
+    - entity_id: '2946'
+      entity_name: Edo
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2946
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2861'
+    - entity_id: '2947'
+      entity_name: Enugu
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2947
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2862'
+    - entity_id: '2948'
+      entity_name: Ebonyi
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2948
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2863'
+    - entity_id: '2949'
+      entity_name: Kaduna
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2949
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2864'
+    - entity_id: '2950'
+      entity_name: Kogi
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2950
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2865'
+    - entity_id: '2951'
+      entity_name: Plateau
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2951
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2866'
+    - entity_id: '2952'
+      entity_name: Nassarawa
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2952
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2867'
+    - entity_id: '2953'
+      entity_name: Jigawa
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2953
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2868'
+    - entity_id: '2954'
+      entity_name: Kano
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2954
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2869'
+    - entity_id: '2955'
+      entity_name: Katsina
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2955
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2870'
+    - entity_id: '2956'
+      entity_name: Sokoto
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2956
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2871'
+    - entity_id: '2957'
+      entity_name: Zamfara
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2957
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2872'
+    - entity_id: '2958'
+      entity_name: Yobe
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2958
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2873'
+    - entity_id: '2959'
+      entity_name: Kebbi
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2959
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2879'
+    - entity_id: '2960'
+      entity_name: Adamawa
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2960
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '2881'
+    - entity_id: '2961'
+      entity_name: Federal Capital Territory
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.2961
+        country_code: NG
+        country_name: Nigeria
+        ne_region_id: '3470'
+    - entity_id: '4662'
+      entity_name: Unknown Region in Nigeria
+      parent_country_id: NG
+      parent_country_name: Nigeria
+      attrs:
+        fqid: geo.netacuity.AF.NG.4662
+        country_code: NG
+        country_name: Nigeria
+    - entity_id: '3576'
+      entity_name: Southern
+      parent_country_id: SL
+      parent_country_name: Sierra Leone
+      attrs:
+        fqid: geo.netacuity.AF.SL.3576
+        country_code: SL
+        country_name: Sierra Leone
+        ne_region_id: '760'
+    - entity_id: '3577'
+      entity_name: Western
+      parent_country_id: SL
+      parent_country_name: Sierra Leone
+      attrs:
+        fqid: geo.netacuity.AF.SL.3577
+        country_code: SL
+        country_name: Sierra Leone
+        ne_region_id: '761'
+    - entity_id: '3578'
+      entity_name: Northern
+      parent_country_id: SL
+      parent_country_name: Sierra Leone
+      attrs:
+        fqid: geo.netacuity.AF.SL.3578
+        country_code: SL
+        country_name: Sierra Leone
+        ne_region_id: '762'
+    - entity_id: '3579'
+      entity_name: Eastern
+      parent_country_id: SL
+      parent_country_name: Sierra Leone
+      attrs:
+        fqid: geo.netacuity.AF.SL.3579
+        country_code: SL
+        country_name: Sierra Leone
+        ne_region_id: '790'
+    - entity_id: '4676'
+      entity_name: Unknown Region in Sierra Leone
+      parent_country_id: SL
+      parent_country_name: Sierra Leone
+      attrs:
+        fqid: geo.netacuity.AF.SL.4676
+        country_code: SL
+        country_name: Sierra Leone
+    - entity_id: '3541'
+      entity_name: "S\xE9dhiou"
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3541
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '5514'
+    - entity_id: '3542'
+      entity_name: "K\xE9dougou"
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3542
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '5515'
+    - entity_id: '3543'
+      entity_name: Kaffrine
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3543
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '5516'
+    - entity_id: '3544'
+      entity_name: Saint-Louis
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3544
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '5517'
+    - entity_id: '3545'
+      entity_name: Dakar
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3545
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '759'
+    - entity_id: '3546'
+      entity_name: Diourbel
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3546
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '763'
+    - entity_id: '3547'
+      entity_name: Fatick
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3547
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '764'
+    - entity_id: '3548'
+      entity_name: Kaolack
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3548
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '765'
+    - entity_id: '3549'
+      entity_name: Louga
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3549
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '766'
+    - entity_id: '3550'
+      entity_name: Matam
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3550
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '767'
+    - entity_id: '3551'
+      entity_name: "Thi\xE8s"
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3551
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '768'
+    - entity_id: '3552'
+      entity_name: Kolda
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3552
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '774'
+    - entity_id: '3553'
+      entity_name: Ziguinchor
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3553
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '775'
+    - entity_id: '3554'
+      entity_name: Tambacounda
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.3554
+        country_code: SN
+        country_name: Senegal
+        ne_region_id: '779'
+    - entity_id: '4699'
+      entity_name: Unknown Region in Senegal
+      parent_country_id: SN
+      parent_country_name: Senegal
+      attrs:
+        fqid: geo.netacuity.AF.SN.4699
+        country_code: SN
+        country_name: Senegal
+    - entity_id: '3954'
+      entity_name: Plateaux
+      parent_country_id: TG
+      parent_country_name: Togo
+      attrs:
+        fqid: geo.netacuity.AF.TG.3954
+        country_code: TG
+        country_name: Togo
+        ne_region_id: '86'
+    - entity_id: '3955'
+      entity_name: Maritime
+      parent_country_id: TG
+      parent_country_name: Togo
+      attrs:
+        fqid: geo.netacuity.AF.TG.3955
+        country_code: TG
+        country_name: Togo
+        ne_region_id: '87'
+    - entity_id: '3956'
+      entity_name: Kara
+      parent_country_id: TG
+      parent_country_name: Togo
+      attrs:
+        fqid: geo.netacuity.AF.TG.3956
+        country_code: TG
+        country_name: Togo
+        ne_region_id: '88'
+    - entity_id: '3957'
+      entity_name: Centre
+      parent_country_id: TG
+      parent_country_name: Togo
+      attrs:
+        fqid: geo.netacuity.AF.TG.3957
+        country_code: TG
+        country_name: Togo
+        ne_region_id: '89'
+    - entity_id: '3958'
+      entity_name: Savanes
+      parent_country_id: TG
+      parent_country_name: Togo
+      attrs:
+        fqid: geo.netacuity.AF.TG.3958
+        country_code: TG
+        country_name: Togo
+        ne_region_id: '90'
+    - entity_id: '4666'
+      entity_name: Unknown Region in Togo
+      parent_country_id: TG
+      parent_country_name: Togo
+      attrs:
+        fqid: geo.netacuity.AF.TG.4666
+        country_code: TG
+        country_name: Togo
   coverage: []

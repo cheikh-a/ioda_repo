@@ -1,8 +1,8 @@
 # IODA Entity Catalog (West Africa)
 
-- Generated at: `2026-02-24T15:18:13Z`
-- Countries discovered (target set): `1`
-- Regions discovered (target set): `46`
+- Generated at: `2026-02-24T15:27:11Z`
+- Countries discovered (target set): `15`
+- Regions discovered (target set): `264`
 - Datasources discovered: `11`
 
 ## Datasources
@@ -24,13 +24,27 @@
 | Country Code | Country Name | Regions |
 |---|---|---:|
 | BF | Burkina Faso | 46 |
+| BJ | Benin | 13 |
+| CI | Cote D Ivoire | 20 |
+| CV | Cape Verde | 23 |
+| GH | Ghana | 11 |
+| GM | Gambia | 7 |
+| GN | Guinea | 35 |
+| GW | Guinea-Bissau | 10 |
+| LR | Liberia | 16 |
+| ML | Mali | 10 |
+| NE | Niger | 9 |
+| NG | Nigeria | 38 |
+| SL | Sierra Leone | 5 |
+| SN | Senegal | 15 |
+| TG | Togo | 6 |
 
 ## Coverage Summary
 
-- Catalog rows (entity x metric): `517`
+- Catalog rows (entity x metric): `3069`
 - Coverage rows with status `ok`: `0`
 - Coverage status counts:
-  - `null`: 517
+  - `null`: 3069
 
 ### Sample Rows (first 20)
 
@@ -47,12 +61,12 @@
 | country | BF | Burkina Faso | ping-slash24-loss |  |  |  |
 | country | BF | Burkina Faso | upstream-delay-penult-asns |  |  |  |
 | country | BF | Burkina Faso | upstream-delay-penult-e2e-latency |  |  |  |
-| region | 306 | Kompienga | bgp |  |  |  |
-| region | 306 | Kompienga | gtr |  |  |  |
-| region | 306 | Kompienga | gtr-norm |  |  |  |
-| region | 306 | Kompienga | gtr-sarima |  |  |  |
-| region | 306 | Kompienga | merit-nt |  |  |  |
-| region | 306 | Kompienga | mozilla |  |  |  |
-| region | 306 | Kompienga | ping-slash24 |  |  |  |
-| region | 306 | Kompienga | ping-slash24-latency |  |  |  |
-| region | 306 | Kompienga | ping-slash24-loss |  |  |  |
+| country | BJ | Benin | bgp |  |  |  |
+| country | BJ | Benin | gtr |  |  |  |
+| country | BJ | Benin | gtr-norm |  |  |  |
+| country | BJ | Benin | gtr-sarima |  |  |  |
+| country | BJ | Benin | merit-nt |  |  |  |
+| country | BJ | Benin | mozilla |  |  |  |
+| country | BJ | Benin | ping-slash24 |  |  |  |
+| country | BJ | Benin | ping-slash24-latency |  |  |  |
+| country | BJ | Benin | ping-slash24-loss |  |  |  |

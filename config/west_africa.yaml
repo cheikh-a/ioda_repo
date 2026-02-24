@@ -2,7 +2,7 @@ version: 1
 region_definition:
   name: West Africa
   source: ECOWAS default
-  include_mauritania: false
+  include_mauritania: true
   countries:
   - iso2: BJ
     name: Benin
@@ -75,7 +75,7 @@ discovery:
   earliest_search_floor_year: 2000
   coverage_cache_path: data/intermediate/coverage_cache.json
 generated:
-  last_discovered_at_utc: '2026-02-24T15:27:11Z'
+  last_discovered_at_utc: '2026-02-24T15:39:23Z'
   datasources:
   - datasource: bgp
     name: BGP
@@ -162,6 +162,11 @@ generated:
       iso2: ML
       attrs:
         fqid: geo.netacuity.AF.ML
+    - entity_id: MR
+      entity_name: Mauritania
+      iso2: MR
+      attrs:
+        fqid: geo.netacuity.AF.MR
     - entity_id: NE
       entity_name: Niger
       iso2: NE
@@ -1897,6 +1902,139 @@ generated:
         fqid: geo.netacuity.AF.ML.4692
         country_code: ML
         country_name: Mali
+    - entity_id: '2820'
+      entity_name: '[Invalid Region (2820)]'
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2820
+        country_code: MR
+        country_name: Mauritania
+    - entity_id: '2821'
+      entity_name: Tiris Zemmour
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2821
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2783'
+    - entity_id: '2822'
+      entity_name: Brakna
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2822
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2784'
+    - entity_id: '2823'
+      entity_name: Dakhlet Nouadhibou
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2823
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2785'
+    - entity_id: '2824'
+      entity_name: Inchiri
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2824
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2786'
+    - entity_id: '2825'
+      entity_name: Nouakchott
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2825
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2787'
+    - entity_id: '2826'
+      entity_name: Trarza
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2826
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2788'
+    - entity_id: '2827'
+      entity_name: Assaba
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2827
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2789'
+    - entity_id: '2828'
+      entity_name: Guidimaka
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2828
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2790'
+    - entity_id: '2829'
+      entity_name: Gorgol
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2829
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2791'
+    - entity_id: '2830'
+      entity_name: Adrar
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2830
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2795'
+    - entity_id: '2831'
+      entity_name: Hodh ech Chargui
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2831
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2796'
+    - entity_id: '2832'
+      entity_name: Hodh el Gharbi
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2832
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2797'
+    - entity_id: '2833'
+      entity_name: Tagant
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.2833
+        country_code: MR
+        country_name: Mauritania
+        ne_region_id: '2798'
+    - entity_id: '4700'
+      entity_name: Unknown Region in Mauritania
+      parent_country_id: MR
+      parent_country_name: Mauritania
+      attrs:
+        fqid: geo.netacuity.AF.MR.4700
+        country_code: MR
+        country_name: Mauritania
     - entity_id: '2916'
       entity_name: "Tillab\xE9ri"
       parent_country_id: NE

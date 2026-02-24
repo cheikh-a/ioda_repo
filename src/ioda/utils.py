@@ -163,8 +163,8 @@ def parse_entities_from_config(config: dict[str, Any]) -> list[dict[str, Any]]:
             continue
         enabled = bool(item.get("enabled", True))
         optional = bool(item.get("optional", False))
-        if iso2 == "MR":
-            enabled = enabled and include_mauritania
+        if iso2 == "MR" and optional:
+            enabled = include_mauritania
         out.append(
             {
                 "iso2": iso2,

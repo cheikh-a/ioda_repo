@@ -1,8 +1,8 @@
 # IODA Entity Catalog (West Africa)
 
-- Generated at: `2026-02-24T15:27:11Z`
-- Countries discovered (target set): `15`
-- Regions discovered (target set): `264`
+- Generated at: `2026-02-24T15:39:23Z`
+- Countries discovered (target set): `16`
+- Regions discovered (target set): `279`
 - Datasources discovered: `11`
 
 ## Datasources
@@ -33,6 +33,7 @@
 | GW | Guinea-Bissau | 10 |
 | LR | Liberia | 16 |
 | ML | Mali | 10 |
+| MR | Mauritania | 15 |
 | NE | Niger | 9 |
 | NG | Nigeria | 38 |
 | SL | Sierra Leone | 5 |
@@ -41,10 +42,10 @@
 
 ## Coverage Summary
 
-- Catalog rows (entity x metric): `3069`
+- Catalog rows (entity x metric): `3245`
 - Coverage rows with status `ok`: `0`
 - Coverage status counts:
-  - `null`: 3069
+  - `null`: 3245
 
 ### Sample Rows (first 20)
 

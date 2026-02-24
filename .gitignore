@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Python build artifacts
+*.egg-info/
+.coverage
+
+# Runtime data outputs (kept on disk, not committed)
+data/raw/**
+data/intermediate/**
+data/processed/**
+data/logs/**
+
+# Keep directory structure if desired
+!data/raw/.gitkeep
+!data/intermediate/.gitkeep
+!data/processed/.gitkeep
+!data/logs/.gitkeep

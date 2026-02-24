@@ -1,0 +1,534 @@
+version: 1
+region_definition:
+  name: West Africa
+  source: ECOWAS default
+  include_mauritania: false
+  countries:
+  - iso2: BJ
+    name: Benin
+    enabled: true
+  - iso2: BF
+    name: Burkina Faso
+    enabled: true
+  - iso2: CV
+    name: Cabo Verde
+    enabled: true
+  - iso2: CI
+    name: Cote d'Ivoire
+    enabled: true
+  - iso2: GM
+    name: Gambia
+    enabled: true
+  - iso2: GH
+    name: Ghana
+    enabled: true
+  - iso2: GN
+    name: Guinea
+    enabled: true
+  - iso2: GW
+    name: Guinea-Bissau
+    enabled: true
+  - iso2: LR
+    name: Liberia
+    enabled: true
+  - iso2: ML
+    name: Mali
+    enabled: true
+  - iso2: NE
+    name: Niger
+    enabled: true
+  - iso2: NG
+    name: Nigeria
+    enabled: true
+  - iso2: SN
+    name: Senegal
+    enabled: true
+  - iso2: SL
+    name: Sierra Leone
+    enabled: true
+  - iso2: TG
+    name: Togo
+    enabled: true
+  - iso2: MR
+    name: Mauritania
+    enabled: false
+    optional: true
+fetch_defaults:
+  level: both
+  metrics: auto
+  request:
+    user_agent: 'ioda-west-africa-pipeline/0.1 (+local; contact: none)'
+    timeout_seconds: 60
+    min_interval_seconds: 0.5
+    max_retries: 5
+  chunking:
+    initial: month
+    fallback_order:
+    - month
+    - week
+    - day
+    max_response_bytes: 5000000
+    max_points: 10000
+discovery:
+  probe_coverage: true
+  recent_days_check: 30
+  earliest_search_floor_year: 2000
+  coverage_cache_path: data/intermediate/coverage_cache.json
+generated:
+  last_discovered_at_utc: '2026-02-24T15:18:13Z'
+  datasources:
+  - datasource: bgp
+    name: BGP
+    units: Visible /24s
+  - datasource: gtr
+    name: Google Transparency Report
+    units: Traffic
+  - datasource: gtr-norm
+    name: Google Transparency Report (Normalized)
+    units: Normalized Traffic
+  - datasource: gtr-sarima
+    name: Google Transparency Report (Forecasted)
+    units: Traffic
+  - datasource: merit-nt
+    name: Merit Network Telescope
+    units: Unique Source IPs
+  - datasource: mozilla
+    name: Mozilla Telemetry
+    units: Percentage
+  - datasource: ping-slash24
+    name: Active Probing
+    units: Up /24s
+  - datasource: ping-slash24-latency
+    name: Active Probing Latency
+    units: Milliseconds
+  - datasource: ping-slash24-loss
+    name: Active Probing Loss
+    units: Percentage of Probes Lost
+  - datasource: upstream-delay-penult-asns
+    name: Upstream Delay Penultimate ASNs
+    units: Frequency
+  - datasource: upstream-delay-penult-e2e-latency
+    name: Upstream Delay Penultimate ASN End-to-End Latency
+    units: Milliseconds
+  resolved:
+    countries:
+    - entity_id: BF
+      entity_name: Burkina Faso
+      iso2: BF
+      attrs:
+        fqid: geo.netacuity.AF.BF
+    regions:
+    - entity_id: '306'
+      entity_name: Kompienga
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.306
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2183'
+    - entity_id: '307'
+      entity_name: Gourma
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.307
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2184'
+    - entity_id: '308'
+      entity_name: Houet
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.308
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2799'
+    - entity_id: '309'
+      entity_name: "K\xE9n\xE9dougou"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.309
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2800'
+    - entity_id: '310'
+      entity_name: Banwa
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.310
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2801'
+    - entity_id: '311'
+      entity_name: Kossi
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.311
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2802'
+    - entity_id: '312'
+      entity_name: "Bal\xE9"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.312
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2803'
+    - entity_id: '313'
+      entity_name: Mou Houn
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.313
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2804'
+    - entity_id: '314'
+      entity_name: Oudalan
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.314
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2805'
+    - entity_id: '315'
+      entity_name: Soum
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.315
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2806'
+    - entity_id: '316'
+      entity_name: Nayala
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.316
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2807'
+    - entity_id: '317'
+      entity_name: Sourou
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.317
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2808'
+    - entity_id: '318'
+      entity_name: Bam
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.318
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2811'
+    - entity_id: '319'
+      entity_name: "Boulkiemd\xE9"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.319
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2812'
+    - entity_id: '320'
+      entity_name: "Kourw\xE9ogo"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.320
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2813'
+    - entity_id: '321'
+      entity_name: "Baz\xE9ga"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.321
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2814'
+    - entity_id: '322'
+      entity_name: Kadiogo
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.322
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2815'
+    - entity_id: '323'
+      entity_name: Oubritenga
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.323
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2816'
+    - entity_id: '324'
+      entity_name: "Passor\xE9"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.324
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2817'
+    - entity_id: '325'
+      entity_name: Zondoma
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.325
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2818'
+    - entity_id: '326'
+      entity_name: "Sangui\xE9"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.326
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2819'
+    - entity_id: '327'
+      entity_name: Sissili
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.327
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2820'
+    - entity_id: '328'
+      entity_name: Ziro
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.328
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2821'
+    - entity_id: '329'
+      entity_name: Loroum
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.329
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2822'
+    - entity_id: '330'
+      entity_name: Yatenga
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.330
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2823'
+    - entity_id: '331'
+      entity_name: Namentenga
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.331
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2824'
+    - entity_id: '332'
+      entity_name: Sanmatenga
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.332
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2825'
+    - entity_id: '333'
+      entity_name: Boulgou
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.333
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2826'
+    - entity_id: '334'
+      entity_name: "Koulp\xE9logo"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.334
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2827'
+    - entity_id: '335'
+      entity_name: Ganzourgou
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.335
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2828'
+    - entity_id: '336'
+      entity_name: Kouritenga
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.336
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2829'
+    - entity_id: '337'
+      entity_name: Nahouri
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.337
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2830'
+    - entity_id: '338'
+      entity_name: "Zoundw\xE9ogo"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.338
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2831'
+    - entity_id: '339'
+      entity_name: Bougouriba
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.339
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2832'
+    - entity_id: '340'
+      entity_name: Ioba
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.340
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2833'
+    - entity_id: '341'
+      entity_name: Tuy
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.341
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2834'
+    - entity_id: '342'
+      entity_name: "L\xE9raba"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.342
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2835'
+    - entity_id: '343'
+      entity_name: "Komo\xE9"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.343
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2836'
+    - entity_id: '344'
+      entity_name: Poni
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.344
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2837'
+    - entity_id: '345'
+      entity_name: Gnagna
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.345
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2874'
+    - entity_id: '346'
+      entity_name: Komondjari
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.346
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2875'
+    - entity_id: '347'
+      entity_name: "S\xE9no"
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.347
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2876'
+    - entity_id: '348'
+      entity_name: Yagha
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.348
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2877'
+    - entity_id: '349'
+      entity_name: Tapoa
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.349
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '2878'
+    - entity_id: '350'
+      entity_name: Noumbiel
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.350
+        country_code: BF
+        country_name: Burkina Faso
+        ne_region_id: '5989'
+    - entity_id: '4649'
+      entity_name: Unknown Region in Burkina Faso
+      parent_country_id: BF
+      parent_country_name: Burkina Faso
+      attrs:
+        fqid: geo.netacuity.AF.BF.4649
+        country_code: BF
+        country_name: Burkina Faso
+  coverage: []
